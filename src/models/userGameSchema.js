@@ -6,6 +6,7 @@ const userGameSchema = new Schema({
         tier: { type: String, required: true },
         rank: { type: String, required: true },
         wins: { type: Number, required: true },
+        winrate: { type: Number, required: true },
         losses: { type: Number, required: true },
         queueType: { type: String, required: true },
         summonerId: { type: String, required: true },
